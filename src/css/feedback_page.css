@@ -1,0 +1,55 @@
+.feedback_page_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+}
+
+.feedback_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    border: 3px solid #034159 ;
+    padding: 25px;
+    gap: 25px;
+}
+
+.feedback_card h1 {
+    flex-grow: 0;
+    text-align: center;
+}
+
+.feedback_card p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    gap: 25px;
+}
+
+.feedback_form input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 25px;
+    outline: none;
+    border: 3px solid #034159;
+}
+
+.feedback_form textarea {
+    height: 500px;
+    width: 100%;
+    font-size: 1.5rem;
+    outline: none;
+    border: 3px solid #034159;
+    padding: 25px;
+}

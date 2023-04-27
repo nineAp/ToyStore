@@ -1,0 +1,28 @@
+.pages {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page {
+    font-size: 2rem;
+    border: 3px solid #034159;
+    cursor: pointer;
+    color: #034159;
+    text-align: center;
+    border-radius: 25px;
+    width: 70px;
+}
+
+.current_page {
+    font-size: 2rem;
+    border: 3px solid #034159;
+    background-color: #034159;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    width: 70px;
+}

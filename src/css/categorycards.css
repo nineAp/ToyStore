@@ -1,0 +1,31 @@
+.category_card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    border: 3px solid #038C3E;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-around;
+    transition: all .3s ease-in-out;
+    margin-top: 2%;
+    padding: 15px;
+}
+
+.category_card h1 {
+    flex-grow: 2;
+    font-size: 1.7rem;
+}
+
+
+.category_card h2 {
+    font-size: 1.4rem;
+}
+
+.category_card:hover {
+    background-color: #034159;
+    color: white;
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}

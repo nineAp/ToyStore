@@ -1,0 +1,137 @@
+.header {
+    background-color:#034159;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.header_link {
+    font-size: 1.15rem;
+    color: white;
+    cursor: pointer;
+}
+
+.header_link:hover {
+    color: #0CF25D;
+}
+
+
+.logo_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_block h4 {
+    color: #0CF25D;
+    font-size: 1rem;
+}
+
+.logo {
+    flex-grow: 0;
+    font-size: 2rem;
+    color: #0CF25D;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    font-weight: 800;
+}
+
+.logo:hover {
+    color: #038C3E;
+}
+
+.header_content nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-grow: 2;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart div {
+    background-color: #025951;
+    color: white;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.cart div h2 {
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
+
+.search_block {
+    flex-grow: 0;
+}
+
+.search_input {
+    height: 50px;
+    outline: none;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    background-color: #034159;
+    flex-grow: 2;
+    width: 70%;
+}
+
+.search_input:focus {
+    border: 2px solid #0CF25D;
+}
+
+.search_btn {
+    height: 50px;
+    background-color: #025951;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    flex-grow: 1;
+    width: 30%;
+}
+
+.search_btn:hover {
+    background-color: #038C3E;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .header_content {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 15px;
+        height: auto;
+        padding: 25px;
+    }
+
+    .header_content nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .cart {
+        margin-left: 10px;
+    }
+}
+  
